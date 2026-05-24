@@ -1,4 +1,4 @@
-import os
+
 
 # Define the comprehensive academic lab report text based on variant 17 (Trapezoid and circular segment)
 report_content = """# МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ
@@ -70,3 +70,18 @@ report_content = """# МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБ
 ### 3.1 Компонент рисования на Objective-C (Задача 2.1)
 
 #### Файл: `Lab7-Combined/ObjectiveC/DrawingViewController.h`
+```objc
+#import <UIKit/UIKit.h>
+
+@interface DrawingViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIImageView *canvas;
+@property (nonatomic) CGPoint lastPoint;
+@property (nonatomic, strong) UIColor *currentColor;
+@property (nonatomic) CGFloat currentWidth;
+
+- (IBAction)colorChanged:(UIButton *)sender;
+- (IBAction)sizeChanged:(UIStepper *)sender;
+- (IBAction)saveImage:(UIButton *)sender;
+
+@end
