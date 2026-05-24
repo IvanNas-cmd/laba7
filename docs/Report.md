@@ -85,7 +85,7 @@ report_content = """# МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБ
 - (IBAction)saveImage:(UIButton *)sender;
 
 @end
-
+```
 #### Файл: `Lab7-Combined/ObjectiveC/DrawingViewController.m`
 ```objc
 #import "DrawingViewController.h"
@@ -165,3 +165,4 @@ report_content = """# МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБ
 }
 
 @end
+```
